@@ -4,33 +4,13 @@ A lot of the difficulty in uninstalling Trend Micro comes from the fact that it 
 
 ## Prerequisites
 
-- Terminal program
 - Admin privileges
 - Backup of important files
-
-## Killing Interfering Processes
-
-1. Open the Terminal program:
-   - Go to **Applications/Utilities/Terminal**.
-
-2. Find the PID associated with each interfering process:
-   ```shell
-   ps -A | grep PROCESS_NAME
-
-Replace "PROCESS_NAME" with the process name. Note down the PID numbers.
-
-    Kill each interfering process using the PID:
-
-    shell
-
-    sudo kill PID
-
-    Replace "PID" with the corresponding process PID. Enter your password when prompted.
 
 Deleting Trend Micro Files
 
     Download the shell script:
-        Go to the following link: Shell Script
+        Download the Shell Script (in Releases)
         Right-click on the page and choose "Save As" to download the script.
         Save the script in a location of your choice (e.g., Desktop).
 
@@ -66,10 +46,9 @@ Confirmation prompt:
 
     Once the script finishes, you will see the message:
 
-    csharp
 
         Trend Micro directories have been successfully removed.
-        Made by Lee Sheedy
+      
 
         This indicates that the script execution has completed and the Trend Micro directories have been removed.
 
@@ -77,4 +56,5 @@ By following these instructions, you can easily uninstall Trend Micro, remove in
 
 Note: Remember to back up your important files before proceeding.
 
-Made with :heart: by Lee Sheedy
+Made by by Lee Sheedy
+
