@@ -1,5 +1,20 @@
 #!/bin/bash
 
+# Interfering processes to kill
+processes=(
+    "iCoreService"
+    "TmLoginMgr"
+    "MainUI"
+)
+
+# Find and kill each interfering process
+for process in "${processes[@]}"; do
+    pids=$(ps -A | grep "$process" | awk '{print $1}')
+    for pid in $pids; do
+        sudo kill "$pid"
+    done
+done
+
 # Directories to delete
 directories=(
     "/System/Library/TrendMicro"
