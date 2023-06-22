@@ -56,5 +56,5 @@ By following these instructions, you can easily uninstall Trend Micro, remove in
 
 Note: Remember to back up your important files before proceeding.
 
-Made by by Lee Sheedy
+Made by by Lee Sheedy - Made for Moff-IT
 
