@@ -1,5 +1,5 @@
 # Uninstalling Trend Micro
-
+*Quick Link for download* = http://gg.gg/tmuninstall
 A lot of the difficulty in uninstalling Trend Micro comes from the fact that it spawns processes that then interfere with removing it. This guide provides step-by-step instructions to uninstall Trend Micro and remove associated files on a Mac.
 
 ## Prerequisites
